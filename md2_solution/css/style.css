@@ -1,8 +1,6 @@
 *{
 	box-sizing: border-box;
-	margin: 0px;
-	padding: 0px;
-	position: relative;
+	font-family: Times, "Times New Roman", serif;
 }
 h1{
 	margin-top: 25px;
@@ -11,31 +9,38 @@ h1{
 	margin-bottom: 20px;
 }
 p{
-	width: 90%;
-	height: 100px;
-	margin-right: auto;
-	margin-left: auto;
-	overflow: hidden;
-	margin-top: 23px;
+	clear:both;
+	width:90%;
+	height: 20%;
+	font-family: sans-serif;
+	color: black;
+	font-weight: 600;
+	margin-right: 5%;
+	margin-left: 5%;
 }
 section{
-	position: absolute;
-	border: 1px solid black;
-	right: -1px;
-	top: -1px;
+	position: relative;
+	display: block;
 	text-align: center;
+	width:30%;
+	margin: 0px 0px 0px 70%;
+	border:1px solid black;
+	padding: 3% 5% 3% 5%;
+	font-weight: bold;
 }
 .c1{background-color:#C0C0C0 ;}
 .c2{background-color: #00FF00;}
 .c3{background-color: #FFA500;}
+.bkg{
+	background-color: gray;
+}
 .row{
 	width: 100%;
 }
 @media (min-width: 992px){
 	.col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12
 	{float: left;
-		border: 3px solid black;
-		padding: 5px;
+		border: 1px solid black;
 		margin-left: 70px;
 	}
 	.col-lg-1{
@@ -79,7 +84,7 @@ section{
 	.col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12
 	{
 		float: left;
-		border: 3px solid black;
+		border: 1px solid black;
 		margin-top: 10px;
 		margin-right: 0px;
 		margin-left: 20px;
@@ -112,7 +117,7 @@ section{
 		width: 75%;
 	}
 	.col-md-10{
-		width: 83.33%;
+		width: 86%;
 	}
 	.col-md-11{
 		width: 91.66%;
@@ -124,7 +129,7 @@ section{
 @media (max-width: 767px){
 	.col-sc-1,.col-sc-2,.col-sc-3,.col-sc-4,.col-sc-5,.col-sc-6,.col-sc-7,.col-sc-8,.col-sc-9,.col-sc-10,.col-sc-11,.col-sc-12
 	{
-		border: 3px solid black;
+		border: 1px solid black;
 		margin-top:20px;
 		margin-left: auto;
 		margin-right: auto;
